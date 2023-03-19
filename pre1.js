@@ -9,10 +9,9 @@ let pais=0.295
 let rg=0.45
 let rgm= 0.70
 
-alert ('los valores ingresados fueron \n' + banco + ' valor dolar banco \n' + dolar + ' dólares a transferir')
  
     while (dolar != 00) {
-        
+        alert ('los valores ingresados fueron \n' + banco + ' valor dolar banco \n' + dolar + ' dólares a transferir')
         if (dolar>=300 ) {
             let total= dolar + dolar * fpyp + dolar * pais + dolar * rgm
             let pesos = total * banco
